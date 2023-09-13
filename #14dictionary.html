@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 13 22:34:12 2023
+
+@author: User
+"""
+#1
+my_dad={'name':'Pulat', 'age':47, "address":'Nukus'}
+print(f"My father's name is {my_dad['name']}. He is {my_dad['age']}")
+#2
+fav_meals={'dad':'palov', 'mum':'borak', 'brother':'shashlik', 'me':'manti'}
+print(f"My dad likes {fav_meals['dad']}.\nMy mum likes {fav_meals['mum']}.\
+      \nMy brother likes {fav_meals['brother']}. \nI like {fav_meals['me']}")
+#3
+en_ru={'print':'napechtat', \
+       'input':'vvod', \
+           'integer':'celoe', \
+               'float':'desyatichnoe', \
+                   'dictionary':'slovar'}
+#4
+word=input('vvedite slovo dlya perevoda:'.lower())
+print(en_ru.get(word, 'takogo slova net v slovare'))
+#5
+word1=input('vvedite slovo dlya perevoda:'.lower())
+if word1 in en_ru:
+    print(en_ru[word1])
+else:
+    print('takogo slova net v slovare')
