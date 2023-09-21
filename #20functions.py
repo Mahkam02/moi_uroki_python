@@ -70,14 +70,14 @@ def prostie_chisla(n1, n2):
     return a
 #6
 def fibbonachi(n):
-    a=[]
+    f=[]
     if n==1:
-        a.append(1)
+        f.append(1)
     if n>=2:
-        a.extend([1, 1])
+        f.extend([1, 1])
     for i in range(n-2):
-        a1=a[i]
-        a2=a[i+1]
-        a3=a1+a2
-        a.append(a3)
+        f1=a[i]
+        f2=a[i+1]
+        f3=f1+f2
+        f.append(f3)
     return a
