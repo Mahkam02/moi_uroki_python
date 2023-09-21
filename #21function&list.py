@@ -4,7 +4,6 @@ Created on Thu Sep 21 23:57:53 2023
 
 @author: Mahkam
 """
-
 #1
 def zag_bukvoy(teksti):
     for k in range(len(teksti)):
