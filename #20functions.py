@@ -76,8 +76,8 @@ def fibbonachi(n):
     if n>=2:
         f.extend([1, 1])
     for i in range(n-2):
-        f1=a[i]
-        f2=a[i+1]
+        f1=f[i]
+        f2=f[i+1]
         f3=f1+f2
         f.append(f3)
     return a
